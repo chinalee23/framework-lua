@@ -139,3 +139,5 @@ function fraction.__mod(a, b)
 	assert(a and b, 'mod should be integer')
 	return fraction.newn(a % b)
 end
+
+return fraction
